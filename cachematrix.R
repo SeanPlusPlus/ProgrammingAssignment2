@@ -1,8 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
 ###############################################################################
 #
 # This function creates a special "matrix" object that can cache its inverse.
@@ -27,9 +22,6 @@ makeCacheMatrix <- function(x = matrix()) {
             setinverse = setinverse,
             getinverse = getinverse)
 }
-
-
-## Write a short comment describing this function
 
 ###############################################################################
 #
@@ -64,7 +56,6 @@ cacheSolve <- function(x, ...) {
 # > m1 <- matrix(c(2, 4, 3, 5), nrow=2, ncol=2)
 # > m2 <- makeCacheMatrix(m1)
 # > cacheSolve(m2)
-# > cacheSolve(m2)
-#     [,1] [,2]
-#     [1,] -2.5  1.5
-#     [2,]  2.0 -1.0
+#      [,1] [,2]
+# [1,] -2.5  1.5
+# [2,]  2.0 -1.0
